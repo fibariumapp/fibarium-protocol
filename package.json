@@ -1,0 +1,25 @@
+{
+  "name": "fibarium-protocol",
+  "version": "0.0.1",
+  "description": "A protocol web3 identity",
+  "homepage": "https://fibarium.com",
+  "keywords": [
+    "rabbitholegg",
+    "quest",
+    "erc20"
+  ],
+  "author": "Fibarium",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.2.1",
+    "hardhat": "^2.17.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@openzeppelin/contracts": "4.9.3",
+    "@openzeppelin/contracts-upgradeable": "4.9.3",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.3.8",
+    "dotenv": "^16.3.1"
+  }
+}
