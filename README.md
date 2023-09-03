@@ -1,14 +1,36 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Fibarium protocol is a web3 identity management protocol on the blockchain network
 
-Try running some of the following tasks:
+## Install
 
-```shell
-npx hardhat help
-npx hardhat test
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Compile Contracts
+
+```bash
 npx hardhat compile
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+---
+
+## Testing
+
+### Run all tests:
+
+```bash
+npx hardhat test
+```
+
+
+## Deployment
+
+### Deployment smart contracts on-chain:
+
+```bash
+npx hardhat run --network <network> ./scripts/deploy.js 
 ```
