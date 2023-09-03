@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Fibarium Protocol
 
 Fibarium protocol is a web3 identity management protocol on the blockchain network
 
