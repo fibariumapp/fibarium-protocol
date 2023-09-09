@@ -3,11 +3,7 @@
   "version": "0.0.1",
   "description": "A protocol web3 identity",
   "homepage": "https://fibarium.com",
-  "keywords": [
-    "rabbitholegg",
-    "quest",
-    "erc20"
-  ],
+  "keywords": [],
   "author": "Fibarium",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
