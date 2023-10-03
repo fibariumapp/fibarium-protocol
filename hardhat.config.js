@@ -156,7 +156,7 @@ task('deploy-profile-sapphire-storage')
         try {
             await hre.run("verify:verify", {
                 contract: "contracts/storage/ProfileSapphireStorage.sol:ProfileSapphireCartridge",
-                address: await profileSapphireStorage.getAddress(),
+                address: await profileSapphireCartridge.getAddress(),
                 constructorArguments: [args.sapphireStorageAddress, args.profileAddress]
             })
         } catch (error) {
