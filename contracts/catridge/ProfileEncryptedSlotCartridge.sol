@@ -1,12 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "@openzeppelin/contracts/access/AccessControl.sol";
-
 import "../interfaces/IDataStorageCartridge.sol";
 import "./Types.sol";
 
-contract ProfileEncryptedSlotCartridge is AccessControl, IDataStorageCartridge {
+contract ProfileEncryptedSlotCartridge is IDataStorageCartridge {
     mapping(address => string) private _encrypted;
     mapping(address => bool) private _profileContracts;
 
