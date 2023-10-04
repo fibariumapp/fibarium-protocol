@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 interface IDataStorageCartridge {
-    function fetch() external view returns (string memory);
+    function fetch(address user) external view returns (string memory);
 
     function create(bytes calldata args) external payable returns (bool);
 

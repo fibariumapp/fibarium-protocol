@@ -12,8 +12,8 @@ contract ProfileGreenfieldCartridge is IDataStorageCartridge {
         _profileContracts[profile] = true;
     }
 
-    function fetch() external view returns (string memory) {
-        return _encrypted[msg.sender];
+    function fetch(address user) external view returns (string memory) {
+        return _encrypted[user];
     }
 
     function create(bytes memory args) external payable returns (bool) {

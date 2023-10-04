@@ -60,7 +60,7 @@ describe("FibariumProfile", function () {
 
         const artifact = await hre.artifacts.readArtifact("IDataStorageCartridge");
         const ProfileStorage = await hre.ethers.getContractAtFromArtifact(artifact, defaultUserProfile.storageAddress);
-        const result = await ProfileStorage.connect(owner).fetch();
+        const result = await ProfileStorage.connect(owner).fetch(owner.address);
         expect(result).to.eq(privateMsg);
 
         let tokenID = await fibariumProfile.connect(owner).tokenIdOf(owner.address);
@@ -118,7 +118,7 @@ describe("FibariumProfile", function () {
 
         const artifact = await hre.artifacts.readArtifact("IDataStorageCartridge");
         const ProfileStorage = await hre.ethers.getContractAtFromArtifact(artifact, defaultUserProfile.storageAddress);
-        const result = await ProfileStorage.connect(owner).fetch();
+        const result = await ProfileStorage.connect(owner).fetch(owner.address);
         expect(result).to.eq("");
     });
 

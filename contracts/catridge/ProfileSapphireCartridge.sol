@@ -13,7 +13,7 @@ contract ProfileSapphireCartridge is Host, IDataStorageCartridge {
         _profileContracts[profile] = true;
     }
 
-    function fetch() external view returns (string memory) {
+    function fetch(address user) external view returns (string memory) {
         return "";
     }
 
