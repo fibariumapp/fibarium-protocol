@@ -1,0 +1,25 @@
+{
+  "name": "fibarium-protocol",
+  "version": "0.0.1",
+  "description": "A protocol web3 identity",
+  "homepage": "https://fibarium.com",
+  "keywords": [],
+  "author": "Fibarium",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@oasisprotocol/sapphire-contracts": "^0.2.4",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@openzeppelin/contracts": "4.9.3",
+    "@openzeppelin/contracts-upgradeable": "4.9.3",
+    "@openzeppelin/hardhat-upgrades": "2.3.1",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "hardhat-contract-sizer": "^2.10.0"
+  }
+}
