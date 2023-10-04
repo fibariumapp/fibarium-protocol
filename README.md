@@ -4,6 +4,9 @@ Fibarium protocol is a web3 identity management protocol on the blockchain netwo
 
 This protocol is used to securely store personal data and make it available to third-party web3 projects.
 
+[Fibarium Service](https://fibarium.com)
+
+
 ## Install
 
 ### Install dependencies
@@ -31,7 +34,13 @@ npx hardhat test
 ### Run Profile tests:
 
 ```shell
-npx hardhat test test/Profile.js
+npx hardhat test test/Profile.test.js
+```
+
+### Run Sapphire storage tests:
+
+```shell
+npx hardhat test test/Sapphire.test.js
 ```
 
 ## Deployment
